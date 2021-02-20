@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.white-text {
+    color: #EBEEF5;
+}
+.white-text h1{
+    color: #EBEEF5;
+    font-weight: 600;
+}
+
+div .wrapper {
+    overflow: hidden !important;
+    position: relative !important;
+    max-width: 100% !important;
+    max-height: 80vh !important;
+}
+
+.active-link {
+    font-weight: 500 !important;
+}
+@media(max-width: 480px) {
+    .navbar-link {
+        color: #333 !important;
+    }
+}
